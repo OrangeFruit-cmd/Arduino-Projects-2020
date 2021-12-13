@@ -1,0 +1,55 @@
+LCD I2_C
+GND = GND
+VCC = 5V
+SDA = A4
+SCL = A5	\
+
+Temp And Humid sensor ( facing up ):
+left most = 3V/5V
+left middle = Pin 7 or 8
+right most = ground
+
+
+
+TEMPERATURE AND HUMMIDITY SENSOR WITH LCD AND BUZZER
+
+Temp and Humid Sensor:
+- = GRN
++ = 5V
+S = PIN 7
+
+LCD SCREEN:
+
+New: 0x27
+
+GND= GND
+VCC = 5V
+SDA = PIN A4
+SCL = PIN A5
+
+BUZZER:	
+- = GND
++ = PIN 8
+
+
+Servo
+Brown = GND
+Red = 5V
+Orange = PWM (any pin)
+
+Potentiometer
+U = 5V
+Middle = PWM ( any pin)
+right = GND
+
+
+RFID (Top to bottom)
+SDA = Pin 10
+SCK = Pin 13
+MOSI = Pin 11
+MISO = Pin 12
+IRQ = None
+GND = GND
+RST = Pin 9
+3.3V = 3.3V
+
